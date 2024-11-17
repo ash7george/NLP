@@ -1,0 +1,89 @@
+
+<html>
+<head><title>Sentiment Analysis Comparison Results</title></head>
+<body>
+    <h1>Sentiment Analysis Comparison Results</h1>
+    <h2>Summary Statistics</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mean Sentiment Score - Roberta</td>
+      <td>6.555001</td>
+    </tr>
+    <tr>
+      <td>Mean Sentiment Score - DistillBERT</td>
+      <td>5.458573</td>
+    </tr>
+    <tr>
+      <td>Label Agreement Percentage</td>
+      <td>71.286204</td>
+    </tr>
+    <tr>
+      <td>Sentiment Score Correlation</td>
+      <td>0.503578</td>
+    </tr>
+  </tbody>
+</table>
+    <h2>Sample Comparison Data</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ticker</th>
+      <th>summary</th>
+      <th>sentiment_score_roberta</th>
+      <th>sentiment_label_roberta</th>
+      <th>sentiment_score_distillbert</th>
+      <th>sentiment_label_distillbert</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>Baron Durable Advantage Fund gained 16.0% during the first quarter. Agilent Technologies Inc. (NYSE:A) delivered a -20.35% return since the beginning of the year. The stock closed at $118.54 per share on June 12, 2023.</td>
+      <td>8.106287</td>
+      <td>positive</td>
+      <td>1.107588</td>
+      <td>negative</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Technical University of Berlin researcher recognized for his innovative work in bioprocess engineering. Dr. Neubauer’s work orchestrates hardware, software, automation, mathematical models, and AI to discover optimal conditions for PAT end-to-end.</td>
+      <td>9.294491</td>
+      <td>positive</td>
+      <td>9.997417</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Agilent announces launch of new Gen6 software for all Agilent BioTek detection instruments. New capabilities offer simplicity and walkup usability for multimode detection.</td>
+      <td>9.080046</td>
+      <td>positive</td>
+      <td>9.994968</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>The xCELLigence RTCA Software Pro enables data integrity controls to support regulatory requirements defined in FDA 21 CFR Part 11 and EU GMP Annex 11 for electronic records and electronic signatures. New and enhanced features ensure that data and electronic records generated with Agilent RTCa systems are trustworthy, authentic, and reliable.</td>
+      <td>8.238650</td>
+      <td>positive</td>
+      <td>9.994237</td>
+      <td>positive</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Agilent Technologies (A) closed at $127.63 in the latest trading session, marking a -0.56% move from the prior day. This change was narrower than the S&amp;P 500's daily loss of 0.7%. Meanwhile, the Dow lost 0.54%, and the Nasdaq, a tech-heavy index, lost 1.17%.Coming into today, shares of the scientific instrument maker had gained 8.33% in the past month.</td>
+      <td>5.000000</td>
+      <td>negative</td>
+      <td>1.007531</td>
+      <td>negative</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
